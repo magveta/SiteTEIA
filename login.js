@@ -9,7 +9,8 @@ function criarconta() {
     localStorage.setItem('contas', JSON.stringify(contas));
     
     console.log("Conta criada:", { emailrecebido, senharecebida });
-    alert("Sua conta foi criada!");
+    alert("Sua conta foi criada com sucesso!");
+    window.location.replace("index.html");
 }
 
 function logar() {
@@ -29,8 +30,10 @@ function logar() {
 
     if (loginexiste) {
         alert("Você logou com sucesso!");
+        window.location.replace("index.html");
     } else {
         alert("E-mail ou Senha incorretos ou inexistentes. Tente novamente.");
+        location.reload()
     }
 }
 /* 
