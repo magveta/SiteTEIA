@@ -1,7 +1,9 @@
-# Loja-DragonBall-DSM
-Projeto de website para a aula de Desenvolvimento Web. Loja temática de DragonBall.
+# Projeto TEIA
+Projeto de website para o Projeto Integrador, Fatec Diadema.
 
 MEMBROS DO GRUPO: 
 Lucas Willians de Souza Magueta,
-Cleverson Amorim de Lima &
-Italo Araújo Teixeira
+Cleverson Amorim de Lima,
+Italo Araújo Teixeira,
+Miguel Alves & 
+José Luiz.

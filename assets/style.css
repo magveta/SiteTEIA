@@ -18,3 +18,56 @@
     justify-content: center;
     padding-top: 10%;
 }
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.logo {
+    margin-top: 50px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.slogan {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.card-img-top {
+    padding: 15%;
+}
+
+.login-container {
+    background-color: #343a40;
+    color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px auto;
+    width: 300px;
+}
+
+.login-container input {
+    margin-bottom: 10px;
+}
+
+.login-container button {
+    margin-bottom: 10px;
+}
+
+.cotainer-botton {
+    padding-bottom: 150px;
+}
