@@ -51,6 +51,7 @@ footer {
     bottom: 0;
     width: 100%;
     border-top: 2px solid rgb(0, 218, 0);
+    margin-bottom: auto;
 }
 
 .card:hover {
