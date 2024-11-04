@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom, #001f3f, #007bff); /* Degradê de azul marinho para azul */
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 38, 255, 0.9)); /* Degradê de azul marinho para azul */
     color: #333; /* Cor do texto para melhor legibilidade */
 }
 
@@ -56,6 +56,10 @@ body {
     opacity: 0.9; 
 }
 
+.external-container{
+    padding-bottom: 90px;
+}
+
 .card {
     border: none;
     background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com 80% de opacidade */
@@ -67,9 +71,10 @@ body {
 }
 
 .footer {
-    background-color: #000;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #000000; 
     color: white;
-    padding: 20px 0;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -77,10 +82,6 @@ body {
     z-index: 1000;
 }
 
-
-.footer p {
-    margin: 0;
-}
 
 .btn-primary {
     background-color: #007bff; /* Cor principal do botão */

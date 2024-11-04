@@ -1,6 +1,6 @@
 /* Estilos gerais */
 body {
-    background: linear-gradient(to right, #001F3F, #000000); /* Degradê de azul marinho para preto */
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 38, 255, 0.9)); /* Degradê de azul marinho para preto */
     font-family: 'Arial', sans-serif;
     color: #333;
     margin: 0;
@@ -80,6 +80,10 @@ h1 {
     margin-bottom: 20px;
 }
 
+.container{
+    margin-bottom: 70px;
+}
+
 /* Estilos dos inputs */
 .form-control {
     border: 1px solid #ccc;
@@ -131,7 +135,7 @@ h1 {
 .footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #000000; /* Azul marinho brilhante */
+    background-color: #000000; 
     color: white;
     position: fixed;
     bottom: 0;

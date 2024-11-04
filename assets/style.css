@@ -8,6 +8,7 @@ html, body {
 
 /* Estilo do corpo */
 body {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 38, 255, 0.9));
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
     text-align: center;
